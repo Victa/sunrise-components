@@ -199,9 +199,7 @@
             return ms;
         }
 
-        var msie1x = typeof ScriptEngineMajorVersion === "function"
-                ? ScriptEngineMajorVersion() //IE11 detection
-                : new Function("/*@cc_on return @_jscript_version; @*/")() >= 10, //conditional compilation from mickeysoft trick
+        var msie1x = typeof ScriptEngineMajorVersion === "function" ? ScriptEngineMajorVersion() : (navigator.appVersion.indexOf('MSIE 10') !== -1),
             ua = navigator.userAgent,
             iphone = ua.match(new RegExp("iphone", "i")) !== null,
             android = ua.match(new RegExp("android.*safari.*", "i")) !== null,
