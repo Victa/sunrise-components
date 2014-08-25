@@ -1,0 +1,7581 @@
+{
+  "mn-cyrl": {
+    "VERYSHORTDAY": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "eu": {
+    "VERYSHORTDAY": [
+      "I",
+      "A",
+      "A",
+      "A",
+      "O",
+      "O",
+      "L"
+    ]
+  },
+  "lt-lt": {
+    "VERYSHORTDAY": [
+      "S",
+      "P",
+      "A",
+      "T",
+      "K",
+      "P",
+      "Š"
+    ]
+  },
+  "en-gd": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "brx-in": {
+    "VERYSHORTDAY": [
+      "र",
+      "स",
+      "मं",
+      "बु",
+      "बि",
+      "सु",
+      "सु"
+    ]
+  },
+  "ca-fr": {
+    "VERYSHORTDAY": [
+      "dg",
+      "dl",
+      "dt",
+      "dc",
+      "dj",
+      "dv",
+      "ds"
+    ]
+  },
+  "chr-us": {
+    "VERYSHORTDAY": [
+      "Ꮖ",
+      "Ꮙ",
+      "Ꮤ",
+      "Ꮶ",
+      "Ꮕ",
+      "Ꮷ",
+      "Ꭴ"
+    ]
+  },
+  "ar": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "es-bo": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "as": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-bl": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "bn-in": {
+    "VERYSHORTDAY": [
+      "র",
+      "সো",
+      "ম",
+      "বু",
+      "বৃ",
+      "শু",
+      "শ"
+    ]
+  },
+  "zh-hant-hk": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "az-cyrl": {
+    "VERYSHORTDAY": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "en-im": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "guz-ke": {
+    "VERYSHORTDAY": [
+      "C",
+      "C",
+      "C",
+      "C",
+      "A",
+      "I",
+      "E"
+    ]
+  },
+  "ksf-cm": {
+    "VERYSHORTDAY": [
+      "s",
+      "l",
+      "m",
+      "m",
+      "j",
+      "j",
+      "s"
+    ]
+  },
+  "mua-cm": {
+    "VERYSHORTDAY": [
+      "Y",
+      "L",
+      "Z",
+      "O",
+      "A",
+      "G",
+      "E"
+    ]
+  },
+  "lag-tz": {
+    "VERYSHORTDAY": [
+      "P",
+      "T",
+      "E",
+      "O",
+      "A",
+      "I",
+      "M"
+    ]
+  },
+  "tzm-latn-ma": {
+    "VERYSHORTDAY": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "sw-ke": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "az": {
+    "VERYSHORTDAY": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "en-sb": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kk-cyrl-kz": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "С",
+      "С",
+      "Б",
+      "Ж",
+      "С"
+    ]
+  },
+  "ur-pk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pa-arab": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "dje-ne": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "M",
+      "Z",
+      "S"
+    ]
+  },
+  "ar-so": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-in": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kok-in": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "gsw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "ha-latn": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "T",
+      "L",
+      "A",
+      "J",
+      "A"
+    ]
+  },
+  "fr-mf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "dyo": {
+    "VERYSHORTDAY": [
+      "D",
+      "T",
+      "T",
+      "A",
+      "A",
+      "A",
+      "S"
+    ]
+  },
+  "en-ws": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "es-cu": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ja-jp": {
+    "VERYSHORTDAY": [
+      "日",
+      "月",
+      "火",
+      "水",
+      "木",
+      "金",
+      "土"
+    ]
+  },
+  "nyn-ug": {
+    "VERYSHORTDAY": [
+      "S",
+      "K",
+      "R",
+      "S",
+      "N",
+      "T",
+      "M"
+    ]
+  },
+  "en-sc": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "swc-cd": {
+    "VERYSHORTDAY": [
+      "y",
+      "k",
+      "p",
+      "t",
+      "i",
+      "t",
+      "s"
+    ]
+  },
+  "mgo-cm": {
+    "VERYSHORTDAY": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ]
+  },
+  "ms-latn-bn": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "en-hk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pt-pt": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "en-gg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-io": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-mg": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "sr-latn-ba": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "de-lu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "tg-cyrl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-sd": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ln-ao": {
+    "VERYSHORTDAY": [
+      "e",
+      "y",
+      "m",
+      "m",
+      "m",
+      "m",
+      "p"
+    ]
+  },
+  "nyn": {
+    "VERYSHORTDAY": [
+      "S",
+      "K",
+      "R",
+      "S",
+      "N",
+      "T",
+      "M"
+    ]
+  },
+  "as-in": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-gh": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ro-ro": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-um": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-se": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kn-in": {
+    "VERYSHORTDAY": [
+      "ರ",
+      "ಸೋ",
+      "ಮಂ",
+      "ಬು",
+      "ಗು",
+      "ಶು",
+      "ಶ"
+    ]
+  },
+  "en-ky": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "twq-ne": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "uz-latn-uz": {
+    "VERYSHORTDAY": [
+      "Y",
+      "D",
+      "S",
+      "C",
+      "P",
+      "J",
+      "S"
+    ]
+  },
+  "en-gi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kln-ke": {
+    "VERYSHORTDAY": [
+      "T",
+      "T",
+      "A",
+      "S",
+      "A",
+      "M",
+      "L"
+    ]
+  },
+  "ca-es": {
+    "VERYSHORTDAY": [
+      "dg",
+      "dl",
+      "dt",
+      "dc",
+      "dj",
+      "dv",
+      "ds"
+    ]
+  },
+  "zh-hans-cn": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "pt-cv": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "pt-br": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "ar-dj": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "fi-fi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "K",
+      "T",
+      "P",
+      "L"
+    ]
+  },
+  "es-py": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "teo-ke": {
+    "VERYSHORTDAY": [
+      "J",
+      "B",
+      "A",
+      "U",
+      "U",
+      "K",
+      "S"
+    ]
+  },
+  "ar-ss": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "mer-ke": {
+    "VERYSHORTDAY": [
+      "K",
+      "M",
+      "W",
+      "W",
+      "W",
+      "W",
+      "J"
+    ]
+  },
+  "nl-nl": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "fr-dz": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "sv-se": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "ca-ad": {
+    "VERYSHORTDAY": [
+      "dg",
+      "dl",
+      "dt",
+      "dc",
+      "dj",
+      "dv",
+      "ds"
+    ]
+  },
+  "ta": {
+    "VERYSHORTDAY": [
+      "ஞா",
+      "தி",
+      "செ",
+      "பு",
+      "வி",
+      "வெ",
+      "ச"
+    ]
+  },
+  "si-lk": {
+    "VERYSHORTDAY": [
+      "ඉ",
+      "ස",
+      "අ",
+      "බ",
+      "බ්‍ර",
+      "සි",
+      "සෙ"
+    ]
+  },
+  "en-tk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pt-ao": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "en-sg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-is": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "zh-hans-sg": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "te": {
+    "VERYSHORTDAY": [
+      "ఆ",
+      "సో",
+      "మ",
+      "బు",
+      "గు",
+      "శు",
+      "శ"
+    ]
+  },
+  "teo-ug": {
+    "VERYSHORTDAY": [
+      "J",
+      "B",
+      "A",
+      "U",
+      "U",
+      "K",
+      "S"
+    ]
+  },
+  "pa": {
+    "VERYSHORTDAY": [
+      "ਐ",
+      "ਸੋ",
+      "ਮੰ",
+      "ਬੁੱ",
+      "ਵੀ",
+      "ਸ਼ੁੱ",
+      "ਸ਼"
+    ]
+  },
+  "sk-sk": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "U",
+      "S",
+      "Š",
+      "P",
+      "S"
+    ]
+  },
+  "tg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kea": {
+    "VERYSHORTDAY": [
+      "d",
+      "s",
+      "t",
+      "k",
+      "k",
+      "s",
+      "s"
+    ]
+  },
+  "ti-er": {
+    "VERYSHORTDAY": [
+      "ሰ",
+      "ሰ",
+      "ሠ",
+      "ረ",
+      "ኃ",
+      "ዓ",
+      "ቀ"
+    ]
+  },
+  "en-sh": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "th": {
+    "VERYSHORTDAY": [
+      "อา",
+      "จ",
+      "อ",
+      "พ",
+      "พฤ",
+      "ศ",
+      "ส"
+    ]
+  },
+  "ksb-tz": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "es-ar": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ti": {
+    "VERYSHORTDAY": [
+      "ሰ",
+      "ሰ",
+      "ሠ",
+      "ረ",
+      "ኃ",
+      "ዓ",
+      "ቀ"
+    ]
+  },
+  "nd-zw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "S",
+      "S",
+      "S",
+      "S",
+      "M"
+    ]
+  },
+  "el-cy": {
+    "VERYSHORTDAY": [
+      "Κ",
+      "Δ",
+      "Τ",
+      "Τ",
+      "Π",
+      "Π",
+      "Σ"
+    ]
+  },
+  "en-it": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "nl-bq": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "da-gl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "tk": {
+    "VERYSHORTDAY": [
+      "Ý",
+      "D",
+      "S",
+      "Ç",
+      "P",
+      "A",
+      "Ş"
+    ]
+  },
+  "fr-ml": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-vu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ru-kg": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "en-si": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sg-cf": {
+    "VERYSHORTDAY": [
+      "K",
+      "S",
+      "T",
+      "S",
+      "K",
+      "P",
+      "Y"
+    ]
+  },
+  "to": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "P",
+      "T",
+      "F",
+      "T"
+    ]
+  },
+  "bs-latn": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "en-gm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-fi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "tr": {
+    "VERYSHORTDAY": [
+      "P",
+      "P",
+      "S",
+      "Ç",
+      "P",
+      "C",
+      "C"
+    ]
+  },
+  "en-ee": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ha": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "T",
+      "L",
+      "A",
+      "J",
+      "A"
+    ]
+  },
+  "ckb": {
+    "VERYSHORTDAY": [
+      "ی",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ھ",
+      "ش"
+    ]
+  },
+  "bem": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pl": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "W",
+      "Ś",
+      "C",
+      "P",
+      "S"
+    ]
+  },
+  "ky-cyrl-kg": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "Ш",
+      "Ш",
+      "Б",
+      "Ж",
+      "И"
+    ]
+  },
+  "lg": {
+    "VERYSHORTDAY": [
+      "S",
+      "B",
+      "L",
+      "L",
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "ar-001": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "sr-cyrl-rs": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "ar-er": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "ti-et": {
+    "VERYSHORTDAY": [
+      "ሰ",
+      "ሰ",
+      "ሠ",
+      "ረ",
+      "ኃ",
+      "ዓ",
+      "ቀ"
+    ]
+  },
+  "ewo-cm": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "s",
+      "s",
+      "s",
+      "f",
+      "s"
+    ]
+  },
+  "he": {
+    "VERYSHORTDAY": [
+      "א׳",
+      "ב׳",
+      "ג׳",
+      "ד׳",
+      "ה׳",
+      "ו׳",
+      "ש׳"
+    ]
+  },
+  "fa-af": {
+    "VERYSHORTDAY": [
+      "ی",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "nl-cw": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "en-hr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "da": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "en-fj": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pt-mo": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "ps": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ln": {
+    "VERYSHORTDAY": [
+      "e",
+      "y",
+      "m",
+      "m",
+      "m",
+      "m",
+      "p"
+    ]
+  },
+  "pt": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "hi": {
+    "VERYSHORTDAY": [
+      "र",
+      "सो",
+      "मं",
+      "बु",
+      "गु",
+      "शु",
+      "श"
+    ]
+  },
+  "en-us": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sr-latn-me": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "ebu": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "N",
+      "N",
+      "A",
+      "M",
+      "N"
+    ]
+  },
+  "en-to": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "lo": {
+    "VERYSHORTDAY": [
+      "ທ",
+      "ຈ",
+      "ຄ",
+      "​ພຸ",
+      "ພ",
+      "​ສຸ",
+      "ສ"
+    ]
+  },
+  "en-sk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "de": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "ru-by": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "it-it": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "seh": {
+    "VERYSHORTDAY": [
+      "D",
+      "P",
+      "C",
+      "T",
+      "N",
+      "S",
+      "S"
+    ]
+  },
+  "ml-in": {
+    "VERYSHORTDAY": [
+      "ഞാ",
+      "തി",
+      "ചൊ",
+      "ബു",
+      "വ്യാ",
+      "വെ",
+      "ശ"
+    ]
+  },
+  "luy-ke": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sv-fi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "en-fk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "lt": {
+    "VERYSHORTDAY": [
+      "S",
+      "P",
+      "A",
+      "T",
+      "K",
+      "P",
+      "Š"
+    ]
+  },
+  "ta-lk": {
+    "VERYSHORTDAY": [
+      "ஞா",
+      "தி",
+      "செ",
+      "பு",
+      "வி",
+      "வெ",
+      "ச"
+    ]
+  },
+  "lu": {
+    "VERYSHORTDAY": [
+      "L",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "L"
+    ]
+  },
+  "sr-latn": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "lv": {
+    "VERYSHORTDAY": [
+      "S",
+      "P",
+      "O",
+      "T",
+      "C",
+      "P",
+      "S"
+    ]
+  },
+  "en-sl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sbp": {
+    "VERYSHORTDAY": [
+      "M",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "ar-bh": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "hr": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "az-latn-az": {
+    "VERYSHORTDAY": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "ar-sy": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "lo-la": {
+    "VERYSHORTDAY": [
+      "ທ",
+      "ຈ",
+      "ຄ",
+      "​ພຸ",
+      "ພ",
+      "​ສຸ",
+      "ສ"
+    ]
+  },
+  "ne-np": {
+    "VERYSHORTDAY": [
+      "आ",
+      "सो",
+      "म",
+      "बु",
+      "बि",
+      "शु",
+      "श"
+    ]
+  },
+  "chr": {
+    "VERYSHORTDAY": [
+      "Ꮖ",
+      "Ꮙ",
+      "Ꮤ",
+      "Ꮶ",
+      "Ꮕ",
+      "Ꮷ",
+      "Ꭴ"
+    ]
+  },
+  "uz-latn": {
+    "VERYSHORTDAY": [
+      "Y",
+      "D",
+      "S",
+      "C",
+      "P",
+      "J",
+      "S"
+    ]
+  },
+  "es-ic": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "hu": {
+    "VERYSHORTDAY": [
+      "V",
+      "H",
+      "K",
+      "Sz",
+      "Cs",
+      "P",
+      "Sz"
+    ]
+  },
+  "be-by": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "а",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "ar-ma": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "nnh-cm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mer": {
+    "VERYSHORTDAY": [
+      "K",
+      "M",
+      "W",
+      "W",
+      "W",
+      "W",
+      "J"
+    ]
+  },
+  "shi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "yav-cm": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "m",
+      "e",
+      "k",
+      "f",
+      "s"
+    ]
+  },
+  "luo-ke": {
+    "VERYSHORTDAY": [
+      "J",
+      "W",
+      "T",
+      "T",
+      "T",
+      "T",
+      "N"
+    ]
+  },
+  "dua-cm": {
+    "VERYSHORTDAY": [
+      "e",
+      "m",
+      "k",
+      "m",
+      "ŋ",
+      "ɗ",
+      "e"
+    ]
+  },
+  "bez": {
+    "VERYSHORTDAY": [
+      "M",
+      "J",
+      "H",
+      "H",
+      "H",
+      "W",
+      "J"
+    ]
+  },
+  "hu-hu": {
+    "VERYSHORTDAY": [
+      "V",
+      "H",
+      "K",
+      "Sz",
+      "Cs",
+      "P",
+      "Sz"
+    ]
+  },
+  "ar-ae": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "kkj": {
+    "VERYSHORTDAY": [
+      "so",
+      "lu",
+      "ma",
+      "mɛ",
+      "ye",
+      "va",
+      "ms"
+    ]
+  },
+  "hy": {
+    "VERYSHORTDAY": [
+      "Կ",
+      "Ե",
+      "Ե",
+      "Չ",
+      "Հ",
+      "Ու",
+      "Շ"
+    ]
+  },
+  "teo": {
+    "VERYSHORTDAY": [
+      "J",
+      "B",
+      "A",
+      "U",
+      "U",
+      "K",
+      "S"
+    ]
+  },
+  "en-hu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "zh-hans": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "fr-mq": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-fm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ko-kp": {
+    "VERYSHORTDAY": [
+      "일",
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토"
+    ]
+  },
+  "sq-al": {
+    "VERYSHORTDAY": [
+      "D",
+      "H",
+      "M",
+      "M",
+      "E",
+      "P",
+      "S"
+    ]
+  },
+  "en-de": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ca": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "khq": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "kea-cv": {
+    "VERYSHORTDAY": [
+      "d",
+      "s",
+      "t",
+      "k",
+      "k",
+      "s",
+      "s"
+    ]
+  },
+  "ks-arab-in": {
+    "VERYSHORTDAY": [
+      "ا",
+      "ژ",
+      "ب",
+      "ب",
+      "ب",
+      "ج",
+      "ب"
+    ]
+  },
+  "en-tr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ro-md": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "es-ve": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-wf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "mt-mt": {
+    "VERYSHORTDAY": [
+      "Ħ",
+      "T",
+      "T",
+      "E",
+      "Ħ",
+      "Ġ",
+      "S"
+    ]
+  },
+  "dz": {
+    "VERYSHORTDAY": [
+      "ཟླ",
+      "མིར",
+      "ལྷག",
+      "ཕུར",
+      "སངྶ",
+      "སྤེན",
+      "ཉི"
+    ]
+  },
+  "ses": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "ru-ua": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "fr-mr": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "nnh": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "agq-cm": {
+    "VERYSHORTDAY": [
+      "n",
+      "k",
+      "g",
+      "t",
+      "u",
+      "g",
+      "d"
+    ]
+  },
+  "sr-cyrl-ba": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "naq-na": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "E",
+      "W",
+      "D",
+      "F",
+      "A"
+    ]
+  },
+  "bs-cyrl": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "ms-arab-bn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sw-ug": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "ko-kr": {
+    "VERYSHORTDAY": [
+      "일",
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토"
+    ]
+  },
+  "en-dg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "bo-in": {
+    "VERYSHORTDAY": [
+      "ཉི",
+      "ཟླ",
+      "མི",
+      "ལྷ",
+      "ཕུ",
+      "པ",
+      "སྤེ"
+    ]
+  },
+  "en-cc": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ha-latn-ne": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "T",
+      "L",
+      "A",
+      "J",
+      "A"
+    ]
+  },
+  "it-sm": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "en-tt": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sq-mk": {
+    "VERYSHORTDAY": [
+      "D",
+      "H",
+      "M",
+      "M",
+      "E",
+      "P",
+      "S"
+    ]
+  },
+  "bas-cm": {
+    "VERYSHORTDAY": [
+      "n",
+      "n",
+      "u",
+      "ŋ",
+      "m",
+      "k",
+      "j"
+    ]
+  },
+  "lkt": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ms-latn": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "ug-arab-cn": {
+    "VERYSHORTDAY": [
+      "ي",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "ar-om": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "uz-cyrl-uz": {
+    "VERYSHORTDAY": [
+      "Y",
+      "D",
+      "S",
+      "C",
+      "P",
+      "J",
+      "S"
+    ]
+  },
+  "zh-hant": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "es-mx": {
+    "VERYSHORTDAY": [
+      "d",
+      "l",
+      "m",
+      "m",
+      "j",
+      "v",
+      "s"
+    ]
+  },
+  "en-gu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-mu": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-km": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "saq-ke": {
+    "VERYSHORTDAY": [
+      "A",
+      "K",
+      "O",
+      "I",
+      "I",
+      "S",
+      "K"
+    ]
+  },
+  "ar-lb": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-ba": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-tv": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sr-cyrl": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "hr-hr": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "nl-aw": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "so-so": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "T",
+      "A",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "swc": {
+    "VERYSHORTDAY": [
+      "y",
+      "k",
+      "p",
+      "t",
+      "i",
+      "t",
+      "s"
+    ]
+  },
+  "ar-ps": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "dav-ke": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "K",
+      "K",
+      "K",
+      "K",
+      "N"
+    ]
+  },
+  "en-fr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ff-sn": {
+    "VERYSHORTDAY": [
+      "d",
+      "a",
+      "m",
+      "n",
+      "n",
+      "m",
+      "h"
+    ]
+  },
+  "uz-cyrl": {
+    "VERYSHORTDAY": [
+      "Y",
+      "D",
+      "S",
+      "C",
+      "P",
+      "J",
+      "S"
+    ]
+  },
+  "nus-sd": {
+    "VERYSHORTDAY": [
+      "C",
+      "J",
+      "R",
+      "D",
+      "Ŋ",
+      "D",
+      "B"
+    ]
+  },
+  "en-bb": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ki-ke": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "N",
+      "N",
+      "A",
+      "N",
+      "N"
+    ]
+  },
+  "en-ss": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mg-mg": {
+    "VERYSHORTDAY": [
+      "A",
+      "A",
+      "T",
+      "A",
+      "A",
+      "Z",
+      "A"
+    ]
+  },
+  "en-ro": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-pg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ewo": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "s",
+      "s",
+      "s",
+      "f",
+      "s"
+    ]
+  },
+  "ms-latn-my": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "bn-bd": {
+    "VERYSHORTDAY": [
+      "র",
+      "সো",
+      "ম",
+      "বু",
+      "বৃ",
+      "শু",
+      "শ"
+    ]
+  },
+  "bez-tz": {
+    "VERYSHORTDAY": [
+      "M",
+      "J",
+      "H",
+      "H",
+      "H",
+      "W",
+      "J"
+    ]
+  },
+  "nb-no": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "da-dk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "en-dk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "asa-tz": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "cy-gb": {
+    "VERYSHORTDAY": [
+      "S",
+      "Ll",
+      "M",
+      "M",
+      "I",
+      "G",
+      "S"
+    ]
+  },
+  "fr-yt": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-ph": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "de-de": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "ar-ye": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "sbp-tz": {
+    "VERYSHORTDAY": [
+      "M",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "bm-ml": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "T",
+      "A",
+      "A",
+      "J",
+      "S"
+    ]
+  },
+  "rwk": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "sl-si": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "t",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "vai-latn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ch": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "lg-ug": {
+    "VERYSHORTDAY": [
+      "S",
+      "B",
+      "L",
+      "L",
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  "sg": {
+    "VERYSHORTDAY": [
+      "K",
+      "S",
+      "T",
+      "S",
+      "K",
+      "P",
+      "Y"
+    ]
+  },
+  "id-id": {
+    "VERYSHORTDAY": [
+      "M",
+      "S",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "en-na": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "si": {
+    "VERYSHORTDAY": [
+      "ඉ",
+      "ස",
+      "අ",
+      "බ",
+      "බ්‍ර",
+      "සි",
+      "සෙ"
+    ]
+  },
+  "en-gy": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ta-my": {
+    "VERYSHORTDAY": [
+      "ஞா",
+      "தி",
+      "செ",
+      "பு",
+      "வி",
+      "வெ",
+      "ச"
+    ]
+  },
+  "fr-lu": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "pt-mz": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "tg-cyrl-tj": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kk-cyrl": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "С",
+      "С",
+      "Б",
+      "Ж",
+      "С"
+    ]
+  },
+  "en-dm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-be": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sk": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "U",
+      "S",
+      "Š",
+      "P",
+      "S"
+    ]
+  },
+  "en-tz": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sl": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "t",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "ka-ge": {
+    "VERYSHORTDAY": [
+      "კ",
+      "ო",
+      "ს",
+      "ო",
+      "ხ",
+      "პ",
+      "შ"
+    ]
+  },
+  "fr-ga": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ka": {
+    "VERYSHORTDAY": [
+      "კ",
+      "ო",
+      "ს",
+      "ო",
+      "ხ",
+      "პ",
+      "შ"
+    ]
+  },
+  "eu-es": {
+    "VERYSHORTDAY": [
+      "I",
+      "A",
+      "A",
+      "A",
+      "O",
+      "O",
+      "L"
+    ]
+  },
+  "ar-dz": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "sr-cyrl-me": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "so-dj": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "T",
+      "A",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "haw-us": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "C",
+      "C",
+      "C",
+      "C",
+      "M"
+    ]
+  },
+  "so": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "T",
+      "A",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "twq": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "en-er": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sq": {
+    "VERYSHORTDAY": [
+      "D",
+      "H",
+      "M",
+      "M",
+      "E",
+      "P",
+      "S"
+    ]
+  },
+  "sr": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "tzm": {
+    "VERYSHORTDAY": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "ga": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "vi-vn": {
+    "VERYSHORTDAY": [
+      "CN",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7"
+    ]
+  },
+  "om": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-pk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ki": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "N",
+      "N",
+      "A",
+      "N",
+      "N"
+    ]
+  },
+  "sv": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "kk": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "С",
+      "С",
+      "Б",
+      "Ж",
+      "С"
+    ]
+  },
+  "sq-xk": {
+    "VERYSHORTDAY": [
+      "D",
+      "H",
+      "M",
+      "M",
+      "E",
+      "P",
+      "S"
+    ]
+  },
+  "sw": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "az-cyrl-az": {
+    "VERYSHORTDAY": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "it-ch": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "kl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ck": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "or": {
+    "VERYSHORTDAY": [
+      "ର",
+      "ସୋ",
+      "ମ",
+      "ବୁ",
+      "ଗୁ",
+      "ଶୁ",
+      "ଶ"
+    ]
+  },
+  "ca": {
+    "VERYSHORTDAY": [
+      "dg",
+      "dl",
+      "dt",
+      "dc",
+      "dj",
+      "dv",
+      "ds"
+    ]
+  },
+  "br-fr": {
+    "VERYSHORTDAY": [
+      "su",
+      "lu",
+      "mz",
+      "mc",
+      "ya",
+      "gw",
+      "sa"
+    ]
+  },
+  "km": {
+    "VERYSHORTDAY": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "en-es": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-sx": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "vai-vaii-lr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "bg-bg": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "в",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "kn": {
+    "VERYSHORTDAY": [
+      "ರ",
+      "ಸೋ",
+      "ಮಂ",
+      "ಬು",
+      "ಗು",
+      "ಶು",
+      "ಶ"
+    ]
+  },
+  "en-pl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ko": {
+    "VERYSHORTDAY": [
+      "일",
+      "월",
+      "화",
+      "수",
+      "목",
+      "금",
+      "토"
+    ]
+  },
+  "cs-cz": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "Ú",
+      "S",
+      "Č",
+      "P",
+      "S"
+    ]
+  },
+  "fr-td": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "jgo-cm": {
+    "VERYSHORTDAY": [
+      "Sɔ́",
+      "Mɔ́",
+      "ÁM",
+      "Wɛ́",
+      "Tɔ́",
+      "Fɛ",
+      "Sá"
+    ]
+  },
+  "gl": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "X",
+      "V",
+      "S"
+    ]
+  },
+  "ii-cn": {
+    "VERYSHORTDAY": [
+      "ꆏ",
+      "ꋍ",
+      "ꑍ",
+      "ꌕ",
+      "ꇖ",
+      "ꉬ",
+      "ꃘ"
+    ]
+  },
+  "ks": {
+    "VERYSHORTDAY": [
+      "ا",
+      "ژ",
+      "ب",
+      "ب",
+      "ب",
+      "ج",
+      "ب"
+    ]
+  },
+  "en-za": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ad": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ru": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "vun-tz": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "kw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "uk-ua": {
+    "VERYSHORTDAY": [
+      "Н",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "ky": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "Ш",
+      "Ш",
+      "Б",
+      "Ж",
+      "И"
+    ]
+  },
+  "hr-ba": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "en-cm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ha-latn-ng": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "T",
+      "L",
+      "A",
+      "J",
+      "A"
+    ]
+  },
+  "rw-rw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "gu": {
+    "VERYSHORTDAY": [
+      "ર",
+      "સો",
+      "મં",
+      "બુ",
+      "ગુ",
+      "શુ",
+      "શ"
+    ]
+  },
+  "en-sz": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "tk-latn": {
+    "VERYSHORTDAY": [
+      "Ý",
+      "D",
+      "S",
+      "Ç",
+      "P",
+      "A",
+      "Ş"
+    ]
+  },
+  "he-il": {
+    "VERYSHORTDAY": [
+      "א׳",
+      "ב׳",
+      "ג׳",
+      "ד׳",
+      "ה׳",
+      "ו׳",
+      "ש׳"
+    ]
+  },
+  "gv": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "uz-arab": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-pn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-nf": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "cs": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "Ú",
+      "S",
+      "Č",
+      "P",
+      "S"
+    ]
+  },
+  "xog-ug": {
+    "VERYSHORTDAY": [
+      "S",
+      "B",
+      "B",
+      "S",
+      "K",
+      "K",
+      "M"
+    ]
+  },
+  "th-th": {
+    "VERYSHORTDAY": [
+      "อา",
+      "จ",
+      "อ",
+      "พ",
+      "พฤ",
+      "ศ",
+      "ส"
+    ]
+  },
+  "ta-in": {
+    "VERYSHORTDAY": [
+      "ஞா",
+      "தி",
+      "செ",
+      "பு",
+      "வி",
+      "வெ",
+      "ச"
+    ]
+  },
+  "es-ea": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-gf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-rw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "tr-tr": {
+    "VERYSHORTDAY": [
+      "P",
+      "P",
+      "S",
+      "Ç",
+      "P",
+      "C",
+      "C"
+    ]
+  },
+  "de-ch": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "ee-tg": {
+    "VERYSHORTDAY": [
+      "k",
+      "d",
+      "b",
+      "k",
+      "y",
+      "f",
+      "m"
+    ]
+  },
+  "mfe": {
+    "VERYSHORTDAY": [
+      "d",
+      "l",
+      "m",
+      "m",
+      "z",
+      "v",
+      "s"
+    ]
+  },
+  "fr-tg": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-ng": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-sc": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "cy": {
+    "VERYSHORTDAY": [
+      "S",
+      "Ll",
+      "M",
+      "M",
+      "I",
+      "G",
+      "S"
+    ]
+  },
+  "seh-mz": {
+    "VERYSHORTDAY": [
+      "D",
+      "P",
+      "C",
+      "T",
+      "N",
+      "S",
+      "S"
+    ]
+  },
+  "es-hn": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-ag": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ru-kz": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "so-et": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "T",
+      "A",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "es-419": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "sr-latn-xk": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "pa-guru-in": {
+    "VERYSHORTDAY": [
+      "ਐ",
+      "ਸੋ",
+      "ਮੰ",
+      "ਬੁੱ",
+      "ਵੀ",
+      "ਸ਼ੁੱ",
+      "ਸ਼"
+    ]
+  },
+  "de-be": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "km-kh": {
+    "VERYSHORTDAY": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "my-mm": {
+    "VERYSHORTDAY": [
+      "တ",
+      "တ",
+      "အ",
+      "ဗ",
+      "က",
+      "သ",
+      "စ"
+    ]
+  },
+  "rof-tz": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "ebu-ke": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "N",
+      "N",
+      "A",
+      "M",
+      "N"
+    ]
+  },
+  "ee-gh": {
+    "VERYSHORTDAY": [
+      "k",
+      "d",
+      "b",
+      "k",
+      "y",
+      "f",
+      "m"
+    ]
+  },
+  "es-ec": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "kw-gb": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mfe-mu": {
+    "VERYSHORTDAY": [
+      "d",
+      "l",
+      "m",
+      "m",
+      "z",
+      "v",
+      "s"
+    ]
+  },
+  "zgh-ma": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "rm-ch": {
+    "VERYSHORTDAY": [
+      "D",
+      "G",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "en-me": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fil": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "M",
+      "M",
+      "H",
+      "B",
+      "S"
+    ]
+  },
+  "mk-mk": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "в",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "kam-ke": {
+    "VERYSHORTDAY": [
+      "Y",
+      "W",
+      "E",
+      "A",
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "ar-mr": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-bm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-ai": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ms-arab": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "gl-es": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "X",
+      "V",
+      "S"
+    ]
+  },
+  "en-pr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "tk-latn-tm": {
+    "VERYSHORTDAY": [
+      "Ý",
+      "D",
+      "S",
+      "Ç",
+      "P",
+      "A",
+      "Ş"
+    ]
+  },
+  "zh-hans-mo": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "mn-cyrl-mn": {
+    "VERYSHORTDAY": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "ne-in": {
+    "VERYSHORTDAY": [
+      "आ",
+      "सो",
+      "म",
+      "बु",
+      "बि",
+      "शु",
+      "श"
+    ]
+  },
+  "or-in": {
+    "VERYSHORTDAY": [
+      "ର",
+      "ସୋ",
+      "ମ",
+      "ବୁ",
+      "ଗୁ",
+      "ଶୁ",
+      "ଶ"
+    ]
+  },
+  "gsw-ch": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "en-mg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pt-tl": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "en-lc": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ta-sg": {
+    "VERYSHORTDAY": [
+      "ஞா",
+      "தி",
+      "செ",
+      "பு",
+      "வி",
+      "வெ",
+      "ச"
+    ]
+  },
+  "ms-arab-my": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "dua": {
+    "VERYSHORTDAY": [
+      "e",
+      "m",
+      "k",
+      "m",
+      "ŋ",
+      "ɗ",
+      "e"
+    ]
+  },
+  "om-et": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "lv-lv": {
+    "VERYSHORTDAY": [
+      "S",
+      "P",
+      "O",
+      "T",
+      "C",
+      "P",
+      "S"
+    ]
+  },
+  "es-us": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-pt": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kln": {
+    "VERYSHORTDAY": [
+      "T",
+      "T",
+      "A",
+      "S",
+      "A",
+      "M",
+      "L"
+    ]
+  },
+  "to-to": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "P",
+      "T",
+      "F",
+      "T"
+    ]
+  },
+  "en-nl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-mh": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "zu-za": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "B",
+      "T",
+      "S",
+      "H",
+      "M"
+    ]
+  },
+  "kde-tz": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "rof": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "zh": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "ar-km": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-al": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kok": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "yo-bj": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "shi-tfng-ma": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-vu": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ks-arab": {
+    "VERYSHORTDAY": [
+      "ا",
+      "ژ",
+      "ب",
+      "ب",
+      "ب",
+      "ج",
+      "ب"
+    ]
+  },
+  "mua": {
+    "VERYSHORTDAY": [
+      "Y",
+      "L",
+      "Z",
+      "O",
+      "A",
+      "G",
+      "E"
+    ]
+  },
+  "te-in": {
+    "VERYSHORTDAY": [
+      "ఆ",
+      "సో",
+      "మ",
+      "బు",
+      "గు",
+      "శు",
+      "శ"
+    ]
+  },
+  "fr-re": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "yo-ng": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ur-in": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "vi": {
+    "VERYSHORTDAY": [
+      "CN",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7"
+    ]
+  },
+  "bs-latn-ba": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "kl-gl": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "xog": {
+    "VERYSHORTDAY": [
+      "S",
+      "B",
+      "B",
+      "S",
+      "K",
+      "K",
+      "M"
+    ]
+  },
+  "nmg-cm": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "s",
+      "s",
+      "s",
+      "m",
+      "s"
+    ]
+  },
+  "fr-tn": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "es-pa": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "pl-pl": {
+    "VERYSHORTDAY": [
+      "N",
+      "P",
+      "W",
+      "Ś",
+      "C",
+      "P",
+      "S"
+    ]
+  },
+  "tzm-latn": {
+    "VERYSHORTDAY": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "nb": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "hi-in": {
+    "VERYSHORTDAY": [
+      "र",
+      "सो",
+      "मं",
+      "बु",
+      "गु",
+      "शु",
+      "श"
+    ]
+  },
+  "es-gq": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "zu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "B",
+      "T",
+      "S",
+      "H",
+      "M"
+    ]
+  },
+  "nd": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "S",
+      "S",
+      "S",
+      "S",
+      "M"
+    ]
+  },
+  "fr-gn": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ne": {
+    "VERYSHORTDAY": [
+      "आ",
+      "सो",
+      "म",
+      "बु",
+      "बि",
+      "शु",
+      "श"
+    ]
+  },
+  "en-us-posix": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-pw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-no": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ja": {
+    "VERYSHORTDAY": [
+      "日",
+      "月",
+      "火",
+      "水",
+      "木",
+      "金",
+      "土"
+    ]
+  },
+  "rm": {
+    "VERYSHORTDAY": [
+      "D",
+      "G",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "rn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sn-zw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "C",
+      "C",
+      "C",
+      "C",
+      "M"
+    ]
+  },
+  "ps-af": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "pa-guru": {
+    "VERYSHORTDAY": [
+      "ਐ",
+      "ਸੋ",
+      "ਮੰ",
+      "ਬੁੱ",
+      "ਵੀ",
+      "ਸ਼ੁੱ",
+      "ਸ਼"
+    ]
+  },
+  "ro": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ug-arab": {
+    "VERYSHORTDAY": [
+      "ي",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "lu-cd": {
+    "VERYSHORTDAY": [
+      "L",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "L"
+    ]
+  },
+  "en-bs": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "uz-arab-af": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "nl": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "brx": {
+    "VERYSHORTDAY": [
+      "र",
+      "स",
+      "मं",
+      "बु",
+      "बि",
+      "सु",
+      "सु"
+    ]
+  },
+  "iu-cans": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fa": {
+    "VERYSHORTDAY": [
+      "ی",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "bem-zm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "nn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "gu-in": {
+    "VERYSHORTDAY": [
+      "ર",
+      "સો",
+      "મં",
+      "બુ",
+      "ગુ",
+      "શુ",
+      "શ"
+    ]
+  },
+  "ru": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "en-cx": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-zm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-ht": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "rw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-gp": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ff": {
+    "VERYSHORTDAY": [
+      "d",
+      "a",
+      "m",
+      "n",
+      "n",
+      "m",
+      "h"
+    ]
+  },
+  "luo": {
+    "VERYSHORTDAY": [
+      "J",
+      "W",
+      "T",
+      "T",
+      "T",
+      "T",
+      "N"
+    ]
+  },
+  "ln-cd": {
+    "VERYSHORTDAY": [
+      "e",
+      "y",
+      "m",
+      "m",
+      "m",
+      "m",
+      "p"
+    ]
+  },
+  "el-gr": {
+    "VERYSHORTDAY": [
+      "Κ",
+      "Δ",
+      "Τ",
+      "Τ",
+      "Π",
+      "Π",
+      "Σ"
+    ]
+  },
+  "fi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "K",
+      "T",
+      "P",
+      "L"
+    ]
+  },
+  "en-ke": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "be": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "а",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "en-cy": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "es-gt": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-gq": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "bg": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "в",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "kab-dz": {
+    "VERYSHORTDAY": [
+      "Y",
+      "S",
+      "K",
+      "K",
+      "S",
+      "S",
+      "S"
+    ]
+  },
+  "fil-ph": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "M",
+      "M",
+      "H",
+      "B",
+      "S"
+    ]
+  },
+  "pa-arab-pk": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "es-uy": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-ca": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-nr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fo": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-sn": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "es-pe": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "nus": {
+    "VERYSHORTDAY": [
+      "C",
+      "J",
+      "R",
+      "D",
+      "Ŋ",
+      "D",
+      "B"
+    ]
+  },
+  "vun": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "sw-tz": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "dz-bt": {
+    "VERYSHORTDAY": [
+      "ཟླ",
+      "མིར",
+      "ལྷག",
+      "ཕུར",
+      "སངྶ",
+      "སྤེན",
+      "ཉི"
+    ]
+  },
+  "en-cz": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "bm": {
+    "VERYSHORTDAY": [
+      "K",
+      "N",
+      "T",
+      "A",
+      "A",
+      "J",
+      "S"
+    ]
+  },
+  "mas-ke": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "ar-jo": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "dyo-sn": {
+    "VERYSHORTDAY": [
+      "D",
+      "T",
+      "T",
+      "A",
+      "A",
+      "A",
+      "S"
+    ]
+  },
+  "guz": {
+    "VERYSHORTDAY": [
+      "C",
+      "C",
+      "C",
+      "C",
+      "A",
+      "I",
+      "E"
+    ]
+  },
+  "bn": {
+    "VERYSHORTDAY": [
+      "র",
+      "সো",
+      "ম",
+      "বু",
+      "বৃ",
+      "শু",
+      "শ"
+    ]
+  },
+  "bo": {
+    "VERYSHORTDAY": [
+      "ཉི",
+      "ཟླ",
+      "མི",
+      "ལྷ",
+      "ཕུ",
+      "པ",
+      "སྤེ"
+    ]
+  },
+  "ln-cf": {
+    "VERYSHORTDAY": [
+      "e",
+      "y",
+      "m",
+      "m",
+      "m",
+      "m",
+      "p"
+    ]
+  },
+  "nn-no": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "en-mo": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sr-cyrl-xk": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "ar-td": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "br": {
+    "VERYSHORTDAY": [
+      "su",
+      "lu",
+      "mz",
+      "mc",
+      "ya",
+      "gw",
+      "sa"
+    ]
+  },
+  "luy": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "bs": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "en-bw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-as": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "shi-tfng": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "zh-hans-hk": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "ses-ml": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "ar-il": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "bo-cn": {
+    "VERYSHORTDAY": [
+      "ཉི",
+      "ཟླ",
+      "མི",
+      "ལྷ",
+      "ཕུ",
+      "པ",
+      "སྤེ"
+    ]
+  },
+  "hy-am": {
+    "VERYSHORTDAY": [
+      "Կ",
+      "Ե",
+      "Ե",
+      "Չ",
+      "Հ",
+      "Ու",
+      "Շ"
+    ]
+  },
+  "lkt-us": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ln-cg": {
+    "VERYSHORTDAY": [
+      "e",
+      "y",
+      "m",
+      "m",
+      "m",
+      "m",
+      "p"
+    ]
+  },
+  "en-mp": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ar-sa": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "ar-ly": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-at": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "so-ke": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "T",
+      "A",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "af-na": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "S"
+    ]
+  },
+  "kab": {
+    "VERYSHORTDAY": [
+      "Y",
+      "S",
+      "K",
+      "K",
+      "S",
+      "S",
+      "S"
+    ]
+  },
+  "fr-cd": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-nu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "es-ph": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-ki": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mas-tz": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "en-je": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-001": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-au": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fa-ir": {
+    "VERYSHORTDAY": [
+      "ی",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "ky-cyrl": {
+    "VERYSHORTDAY": [
+      "Ж",
+      "Д",
+      "Ш",
+      "Ш",
+      "Б",
+      "Ж",
+      "И"
+    ]
+  },
+  "zh-hant-tw": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "fr-pf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ca-it": {
+    "VERYSHORTDAY": [
+      "dg",
+      "dl",
+      "dt",
+      "dc",
+      "dj",
+      "dv",
+      "ds"
+    ]
+  },
+  "lag": {
+    "VERYSHORTDAY": [
+      "P",
+      "T",
+      "E",
+      "O",
+      "A",
+      "I",
+      "M"
+    ]
+  },
+  "en-bz": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ar-kw": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "pt-gw": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "fr-fr": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-vc": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "am-et": {
+    "VERYSHORTDAY": [
+      "እ",
+      "ሰ",
+      "ማ",
+      "ረ",
+      "ሐ",
+      "ዓ",
+      "ቅ"
+    ]
+  },
+  "fr-dj": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-cf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "es-sv": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-ms": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "kde": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "pt-st": {
+    "VERYSHORTDAY": [
+      "D",
+      "S",
+      "T",
+      "Q",
+      "Q",
+      "S",
+      "S"
+    ]
+  },
+  "ar-sd": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "zh-hant-mo": {
+    "VERYSHORTDAY": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ]
+  },
+  "de-li": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "cgg": {
+    "VERYSHORTDAY": [
+      "S",
+      "K",
+      "R",
+      "S",
+      "N",
+      "T",
+      "M"
+    ]
+  },
+  "bas": {
+    "VERYSHORTDAY": [
+      "n",
+      "n",
+      "u",
+      "ŋ",
+      "m",
+      "k",
+      "j"
+    ]
+  },
+  "kam": {
+    "VERYSHORTDAY": [
+      "Y",
+      "W",
+      "E",
+      "A",
+      "A",
+      "A",
+      "A"
+    ]
+  },
+  "fr-cg": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-mt": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "om-ke": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "af-za": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "S"
+    ]
+  },
+  "nl-sr": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "es-es": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "es-do": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "dje": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "M",
+      "Z",
+      "S"
+    ]
+  },
+  "ar-iq": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "kkj-cm": {
+    "VERYSHORTDAY": [
+      "so",
+      "lu",
+      "ma",
+      "mɛ",
+      "ye",
+      "va",
+      "ms"
+    ]
+  },
+  "vai": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "bs-cyrl-ba": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "у",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "shi-latn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-ch": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-mu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "dav": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "K",
+      "K",
+      "K",
+      "K",
+      "N"
+    ]
+  },
+  "vai-vaii": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "et-ee": {
+    "VERYSHORTDAY": [
+      "P",
+      "E",
+      "T",
+      "K",
+      "N",
+      "R",
+      "L"
+    ]
+  },
+  "en-ie": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ak-gh": {
+    "VERYSHORTDAY": [
+      "K",
+      "D",
+      "B",
+      "W",
+      "Y",
+      "F",
+      "M"
+    ]
+  },
+  "naq": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "E",
+      "W",
+      "D",
+      "F",
+      "A"
+    ]
+  },
+  "ha-latn-gh": {
+    "VERYSHORTDAY": [
+      "L",
+      "L",
+      "T",
+      "L",
+      "A",
+      "J",
+      "A"
+    ]
+  },
+  "es-cl": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "vai-latn-lr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mgh": {
+    "VERYSHORTDAY": [
+      "S",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "mas": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "1"
+    ]
+  },
+  "fr-ci": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-be": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-nz": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "agq": {
+    "VERYSHORTDAY": [
+      "n",
+      "k",
+      "g",
+      "t",
+      "u",
+      "g",
+      "d"
+    ]
+  },
+  "haw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-lr": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-kn": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "rwk-tz": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "nb-sj": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "gsw-li": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "ru-ru": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "saq": {
+    "VERYSHORTDAY": [
+      "A",
+      "K",
+      "O",
+      "I",
+      "I",
+      "S",
+      "K"
+    ]
+  },
+  "en-zw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "sv-ax": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "O",
+      "T",
+      "F",
+      "L"
+    ]
+  },
+  "ug": {
+    "VERYSHORTDAY": [
+      "ي",
+      "د",
+      "س",
+      "چ",
+      "پ",
+      "ج",
+      "ش"
+    ]
+  },
+  "ga-ie": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "jmc": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "en-vg": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "yo": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-bf": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "mr-in": {
+    "VERYSHORTDAY": [
+      "र",
+      "सो",
+      "मं",
+      "बु",
+      "गु",
+      "शु",
+      "श"
+    ]
+  },
+  "en-mw": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "de-at": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "M",
+      "D",
+      "F",
+      "S"
+    ]
+  },
+  "en-ls": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "jgo": {
+    "VERYSHORTDAY": [
+      "Sɔ́",
+      "Mɔ́",
+      "ÁM",
+      "Wɛ́",
+      "Tɔ́",
+      "Fɛ",
+      "Sá"
+    ]
+  },
+  "uk": {
+    "VERYSHORTDAY": [
+      "Н",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "az-latn": {
+    "VERYSHORTDAY": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "asa": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "fr-nc": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "iu-cans-ca": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "is-is": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "Þ",
+      "M",
+      "F",
+      "F",
+      "L"
+    ]
+  },
+  "mgo": {
+    "VERYSHORTDAY": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ]
+  },
+  "ig-ng": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fo-fo": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "zgh": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-lt": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ur": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mgh-mz": {
+    "VERYSHORTDAY": [
+      "S",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "nl-be": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "mg": {
+    "VERYSHORTDAY": [
+      "A",
+      "A",
+      "T",
+      "A",
+      "A",
+      "Z",
+      "A"
+    ]
+  },
+  "en-150": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ar-qa": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "nmg": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "s",
+      "s",
+      "s",
+      "m",
+      "s"
+    ]
+  },
+  "rn-bi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "en-vi": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "id": {
+    "VERYSHORTDAY": [
+      "M",
+      "S",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "es-co": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "yav": {
+    "VERYSHORTDAY": [
+      "s",
+      "m",
+      "m",
+      "e",
+      "k",
+      "f",
+      "s"
+    ]
+  },
+  "mk": {
+    "VERYSHORTDAY": [
+      "н",
+      "п",
+      "в",
+      "с",
+      "ч",
+      "п",
+      "с"
+    ]
+  },
+  "ml": {
+    "VERYSHORTDAY": [
+      "ഞാ",
+      "തി",
+      "ചൊ",
+      "ബു",
+      "വ്യാ",
+      "വെ",
+      "ശ"
+    ]
+  },
+  "fr-sy": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "en-lu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ig": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ar-tn": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "en-jm": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-pm": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "mn": {
+    "VERYSHORTDAY": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "fr-ne": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "uz": {
+    "VERYSHORTDAY": [
+      "Y",
+      "D",
+      "S",
+      "C",
+      "P",
+      "J",
+      "S"
+    ]
+  },
+  "fr-ma": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ii": {
+    "VERYSHORTDAY": [
+      "ꆏ",
+      "ꋍ",
+      "ꑍ",
+      "ꌕ",
+      "ꇖ",
+      "ꉬ",
+      "ꃘ"
+    ]
+  },
+  "ksb": {
+    "VERYSHORTDAY": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "A",
+      "I",
+      "1"
+    ]
+  },
+  "ru-md": {
+    "VERYSHORTDAY": [
+      "В",
+      "П",
+      "В",
+      "С",
+      "Ч",
+      "П",
+      "С"
+    ]
+  },
+  "shi-latn-ma": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ee": {
+    "VERYSHORTDAY": [
+      "k",
+      "d",
+      "b",
+      "k",
+      "y",
+      "f",
+      "m"
+    ]
+  },
+  "fr-cm": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-bi": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "gv-im": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "mr": {
+    "VERYSHORTDAY": [
+      "र",
+      "सो",
+      "मं",
+      "बु",
+      "गु",
+      "शु",
+      "श"
+    ]
+  },
+  "en-lv": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "ms": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "es-ni": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "mt": {
+    "VERYSHORTDAY": [
+      "Ħ",
+      "T",
+      "T",
+      "E",
+      "Ħ",
+      "Ġ",
+      "S"
+    ]
+  },
+  "en-gb": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "khq-ml": {
+    "VERYSHORTDAY": [
+      "H",
+      "T",
+      "T",
+      "L",
+      "L",
+      "L",
+      "S"
+    ]
+  },
+  "ksf": {
+    "VERYSHORTDAY": [
+      "s",
+      "l",
+      "m",
+      "m",
+      "j",
+      "j",
+      "s"
+    ]
+  },
+  "nl-sx": {
+    "VERYSHORTDAY": [
+      "Z",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "Z"
+    ]
+  },
+  "sr-latn-rs": {
+    "VERYSHORTDAY": [
+      "n",
+      "p",
+      "u",
+      "s",
+      "č",
+      "p",
+      "s"
+    ]
+  },
+  "tr-cy": {
+    "VERYSHORTDAY": [
+      "P",
+      "P",
+      "S",
+      "Ç",
+      "P",
+      "C",
+      "C"
+    ]
+  },
+  "en-ug": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "af": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "D",
+      "W",
+      "D",
+      "V",
+      "S"
+    ]
+  },
+  "en-tc": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "el": {
+    "VERYSHORTDAY": [
+      "Κ",
+      "Δ",
+      "Τ",
+      "Τ",
+      "Π",
+      "Π",
+      "Σ"
+    ]
+  },
+  "fr-bj": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ar-eg": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "is": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "Þ",
+      "M",
+      "F",
+      "F",
+      "L"
+    ]
+  },
+  "my": {
+    "VERYSHORTDAY": [
+      "တ",
+      "တ",
+      "အ",
+      "ဗ",
+      "က",
+      "သ",
+      "စ"
+    ]
+  },
+  "es-pr": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "fr-rw": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ms-latn-sg": {
+    "VERYSHORTDAY": [
+      "A",
+      "I",
+      "S",
+      "R",
+      "K",
+      "J",
+      "S"
+    ]
+  },
+  "jmc-tz": {
+    "VERYSHORTDAY": [
+      "J",
+      "J",
+      "J",
+      "J",
+      "A",
+      "I",
+      "J"
+    ]
+  },
+  "en": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "it": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S"
+    ]
+  },
+  "eo": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "iu": {
+    "VERYSHORTDAY": [
+      "S",
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S"
+    ]
+  },
+  "fr-mc": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "ak": {
+    "VERYSHORTDAY": [
+      "K",
+      "D",
+      "B",
+      "W",
+      "Y",
+      "F",
+      "M"
+    ]
+  },
+  "es-cr": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "am": {
+    "VERYSHORTDAY": [
+      "እ",
+      "ሰ",
+      "ማ",
+      "ረ",
+      "ሐ",
+      "ዓ",
+      "ቅ"
+    ]
+  },
+  "cgg-ug": {
+    "VERYSHORTDAY": [
+      "S",
+      "K",
+      "R",
+      "S",
+      "N",
+      "T",
+      "M"
+    ]
+  },
+  "ar-eh": {
+    "VERYSHORTDAY": [
+      "ح",
+      "ن",
+      "ث",
+      "ر",
+      "خ",
+      "ج",
+      "س"
+    ]
+  },
+  "es": {
+    "VERYSHORTDAY": [
+      "D",
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S"
+    ]
+  },
+  "et": {
+    "VERYSHORTDAY": [
+      "P",
+      "E",
+      "T",
+      "K",
+      "N",
+      "R",
+      "L"
+    ]
+  }
+}
