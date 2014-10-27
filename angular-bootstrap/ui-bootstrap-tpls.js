@@ -2,10 +2,10 @@
  * angular-ui-bootstrap
  * http://angular-ui.github.io/bootstrap/
 
- * Version: 0.11.0-SNAPSHOT - 2014-02-27
+ * Version: 0.12.0-SNAPSHOT - 2014-10-27
  * License: MIT
  */
-angular.module("ui.bootstrap", ["ui.bootstrap.tpls", "ui.bootstrap.transition","ui.bootstrap.modal","ui.bootstrap.dropdown","ui.bootstrap.position","ui.bootstrap.bindHtml","ui.bootstrap.tooltip","ui.bootstrap.typeahead"]);
+angular.module("ui.bootstrap", ["ui.bootstrap.tpls", "ui.bootstrap.tpls","ui.bootstrap.transition","ui.bootstrap.modal","ui.bootstrap.dropdown","ui.bootstrap.position","ui.bootstrap.bindHtml","ui.bootstrap.tooltip","ui.bootstrap.typeahead"]);
 angular.module("ui.bootstrap.tpls", ["template/modal/backdrop.html","template/modal/window.html","template/tooltip/tooltip-html-unsafe-popup.html","template/tooltip/tooltip-popup.html","template/typeahead/typeahead-match.html","template/typeahead/typeahead-popup.html"]);
 angular.module('ui.bootstrap.transition', [])
 
@@ -149,12 +149,13 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
 /**
  * A helper directive for the $modal service. It creates a backdrop element.
  */
-  .directive('modalBackdrop', ['$modalStack', '$timeout', function ($modalStack, $timeout) {
+  .directive('modalBackdrop', ['$timeout', function ($timeout) {
     return {
       restrict: 'EA',
       replace: true,
       templateUrl: 'template/modal/backdrop.html',
-      link: function (scope) {
+      link: function (scope, element, attrs) {
+        scope.backdropClass = attrs.backdropClass || '';
 
         scope.animate = false;
 
@@ -162,15 +163,6 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
         $timeout(function () {
           scope.animate = true;
         });
-
-        scope.close = function (evt) {
-          var modal = $modalStack.getTop();
-          if (modal && modal.value.backdrop && modal.value.backdrop != 'static' && (evt.target === evt.currentTarget)) {
-            evt.preventDefault();
-            evt.stopPropagation();
-            $modalStack.dismiss(modal.key, 'backdrop click');
-          }
-        };
       }
     };
   }])
@@ -184,15 +176,28 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
       },
       replace: true,
       transclude: true,
-      templateUrl: 'template/modal/window.html',
+      templateUrl: function(tElement, tAttrs) {
+        return tAttrs.templateUrl || 'template/modal/window.html';
+      },
       link: function (scope, element, attrs) {
-        scope.windowClass = attrs.windowClass || '';
+        element.addClass(attrs.windowClass || '');
+        scope.size = attrs.size;
 
         $timeout(function () {
           // trigger CSS transitions
           scope.animate = true;
-          // focus a freshly-opened modal
-          element[0].focus();
+
+          /**
+           * Auto-focusing of a freshly-opened modal element causes any child elements
+           * with the autofocus attribute to lose focus. This is an issue on touch
+           * based devices which will show and then hide the onscreen keyboard.
+           * Attempts to refocus the autofocus element via JavaScript will not reopen
+           * the onscreen keyboard. Fixed by updated the focusing logic to only autofocus
+           * the modal element if the modal does not contain an autofocus element.
+           */
+          if (!element[0].querySelectorAll('[autofocus]').length) {
+            element[0].focus();
+          }
         });
 
         scope.close = function (evt) {
@@ -206,6 +211,17 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
       }
     };
   }])
+
+  .directive('modalTransclude', function () {
+    return {
+      link: function($scope, $element, $attrs, controller, $transclude) {
+        $transclude($scope.$parent, function(clone) {
+          $element.empty();
+          $element.append(clone);
+        });
+      }
+    };
+  })
 
   .factory('$modalStack', ['$transition', '$timeout', '$document', '$compile', '$rootScope', '$$stackedMap',
     function ($transition, $timeout, $document, $compile, $rootScope, $$stackedMap) {
@@ -278,7 +294,7 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
           });
         } else {
           // Ensure this call is async
-          $timeout(afterAnimating, 0);
+          $timeout(afterAnimating);
         }
 
         function afterAnimating() {
@@ -300,8 +316,9 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
         if (evt.which === 27) {
           modal = openedWindows.top();
           if (modal && modal.value.keyboard) {
+            evt.preventDefault();
             $rootScope.$apply(function () {
-              $modalStack.dismiss(modal.key);
+              $modalStack.dismiss(modal.key, 'escape key press');
             });
           }
         }
@@ -322,15 +339,20 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
         if (currBackdropIndex >= 0 && !backdropDomEl) {
           backdropScope = $rootScope.$new(true);
           backdropScope.index = currBackdropIndex;
-          backdropDomEl = $compile('<div modal-backdrop></div>')(backdropScope);
+          var angularBackgroundDomEl = angular.element('<div modal-backdrop></div>');
+          angularBackgroundDomEl.attr('backdrop-class', modal.backdropClass);
+          backdropDomEl = $compile(angularBackgroundDomEl)(backdropScope);
           body.append(backdropDomEl);
         }
 
         var angularDomEl = angular.element('<div modal-window></div>');
-        angularDomEl.attr('window-class', modal.windowClass);
-        angularDomEl.attr('index', openedWindows.length() - 1);
-        angularDomEl.attr('animate', 'animate');
-        angularDomEl.html(modal.content);
+        angularDomEl.attr({
+          'template-url': modal.windowTemplateUrl,
+          'window-class': modal.windowClass,
+          'size': modal.size,
+          'index': openedWindows.length() - 1,
+          'animate': 'animate'
+        }).html(modal.content);
 
         var modalDomEl = $compile(angularDomEl)(modal.scope);
         openedWindows.top().value.modalDomEl = modalDomEl;
@@ -339,17 +361,17 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
       };
 
       $modalStack.close = function (modalInstance, result) {
-        var modalWindow = openedWindows.get(modalInstance).value;
+        var modalWindow = openedWindows.get(modalInstance);
         if (modalWindow) {
-          modalWindow.deferred.resolve(result);
+          modalWindow.value.deferred.resolve(result);
           removeModalWindow(modalInstance);
         }
       };
 
       $modalStack.dismiss = function (modalInstance, reason) {
-        var modalWindow = openedWindows.get(modalInstance).value;
+        var modalWindow = openedWindows.get(modalInstance);
         if (modalWindow) {
-          modalWindow.deferred.reject(reason);
+          modalWindow.value.deferred.reject(reason);
           removeModalWindow(modalInstance);
         }
       };
@@ -383,14 +405,15 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
 
           function getTemplatePromise(options) {
             return options.template ? $q.when(options.template) :
-              $http.get(options.templateUrl, {cache: $templateCache}).then(function (result) {
-                return result.data;
+              $http.get(angular.isFunction(options.templateUrl) ? (options.templateUrl)() : options.templateUrl,
+                {cache: $templateCache}).then(function (result) {
+                  return result.data;
               });
           }
 
           function getResolvePromises(resolves) {
             var promisesArr = [];
-            angular.forEach(resolves, function (value, key) {
+            angular.forEach(resolves, function (value) {
               if (angular.isFunction(value) || angular.isArray(value)) {
                 promisesArr.push($q.when($injector.invoke(value)));
               }
@@ -446,6 +469,9 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
                 });
 
                 ctrlInstance = $controller(modalOptions.controller, ctrlLocals);
+                if (modalOptions.controllerAs) {
+                  modalScope[modalOptions.controllerAs] = ctrlInstance;
+                }
               }
 
               $modalStack.open(modalInstance, {
@@ -454,7 +480,10 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.transition'])
                 content: tplAndVars[0],
                 backdrop: modalOptions.backdrop,
                 keyboard: modalOptions.keyboard,
-                windowClass: modalOptions.windowClass
+                backdropClass: modalOptions.backdropClass,
+                windowClass: modalOptions.windowClass,
+                windowTemplateUrl: modalOptions.windowTemplateUrl,
+                size: modalOptions.size
               });
 
             }, function resolveError(reason) {
@@ -484,7 +513,7 @@ angular.module('ui.bootstrap.dropdown', [])
 })
 
 .service('dropdownService', ['$document', function($document) {
-  var self = this, openScope = null;
+  var openScope = null;
 
   this.open = function( dropdownScope ) {
     if ( !openScope ) {
@@ -507,7 +536,16 @@ angular.module('ui.bootstrap.dropdown', [])
     }
   };
 
-  var closeDropdown = function() {
+  var closeDropdown = function( evt ) {
+    // This method may still be called during the same mouse event that
+    // unbound this event handler. So check openScope before proceeding.
+    if (!openScope) { return; }
+
+    var toggleElement = openScope.getToggleElement();
+    if ( evt && toggleElement && toggleElement[0].contains(evt.target) ) {
+        return;
+    }
+
     openScope.$apply(function() {
       openScope.isOpen = false;
     });
@@ -515,6 +553,7 @@ angular.module('ui.bootstrap.dropdown', [])
 
   var escapeKeyBind = function( evt ) {
     if ( evt.which === 27 ) {
+      openScope.focusToggleElement();
       closeDropdown();
     }
   };
@@ -550,17 +589,30 @@ angular.module('ui.bootstrap.dropdown', [])
     return scope.isOpen;
   };
 
-  scope.$watch('isOpen', function( value ) {
-    $animate[value ? 'addClass' : 'removeClass'](self.$element, openClass);
+  scope.getToggleElement = function() {
+    return self.toggleElement;
+  };
 
-    if ( value ) {
+  scope.focusToggleElement = function() {
+    if ( self.toggleElement ) {
+      self.toggleElement[0].focus();
+    }
+  };
+
+  scope.$watch('isOpen', function( isOpen, wasOpen ) {
+    $animate[isOpen ? 'addClass' : 'removeClass'](self.$element, openClass);
+
+    if ( isOpen ) {
+      scope.focusToggleElement();
       dropdownService.open( scope );
     } else {
       dropdownService.close( scope );
     }
 
-    setIsOpen($scope, value);
-    toggleInvoker($scope, { open: !!value });
+    setIsOpen($scope, isOpen);
+    if (angular.isDefined(isOpen) && isOpen !== wasOpen) {
+      toggleInvoker($scope, { open: !!isOpen });
+    }
   });
 
   $scope.$on('$locationChangeSuccess', function() {
@@ -574,7 +626,6 @@ angular.module('ui.bootstrap.dropdown', [])
 
 .directive('dropdown', function() {
   return {
-    restrict: 'CA',
     controller: 'DropdownController',
     link: function(scope, element, attrs, dropdownCtrl) {
       dropdownCtrl.init( element );
@@ -584,28 +635,34 @@ angular.module('ui.bootstrap.dropdown', [])
 
 .directive('dropdownToggle', function() {
   return {
-    restrict: 'CA',
     require: '?^dropdown',
     link: function(scope, element, attrs, dropdownCtrl) {
       if ( !dropdownCtrl ) {
         return;
       }
 
-      element.bind('click', function(event) {
-        event.preventDefault();
-        event.stopPropagation();
+      dropdownCtrl.toggleElement = element;
 
-        if ( !element.hasClass('disabled') && !element.prop('disabled') ) {
+      var toggleDropdown = function(event) {
+        event.preventDefault();
+
+        if ( !element.hasClass('disabled') && !attrs.disabled ) {
           scope.$apply(function() {
             dropdownCtrl.toggle();
           });
         }
-      });
+      };
+
+      element.bind('click', toggleDropdown);
 
       // WAI-ARIA
       element.attr({ 'aria-haspopup': true, 'aria-expanded': false });
       scope.$watch(dropdownCtrl.isOpen, function( isOpen ) {
         element.attr('aria-expanded', !!isOpen);
+      });
+
+      scope.$on('$destroy', function() {
+        element.unbind('click', toggleDropdown);
       });
     }
   };
@@ -812,9 +869,9 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
    *     $tooltipProvider.options( { placement: 'left' } );
    *   });
    */
-	this.options = function( value ) {
-		angular.extend( globalOptions, value );
-	};
+  this.options = function( value ) {
+    angular.extend( globalOptions, value );
+  };
 
   /**
    * This allows you to extend the set of trigger mappings available. E.g.:
@@ -923,8 +980,12 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
                 return;
               }
               if ( scope.tt_popupDelay ) {
-                popupTimeout = $timeout( show, scope.tt_popupDelay, false );
-                popupTimeout.then(function(reposition){reposition();});
+                // Do nothing if the tooltip was already scheduled to pop-up.
+                // This happens if show is triggered multiple times before any hide is triggered.
+                if (!popupTimeout) {
+                  popupTimeout = $timeout( show, scope.tt_popupDelay, false );
+                  popupTimeout.then(function(reposition){reposition();});
+                }
               } else {
                 show()();
               }
@@ -939,6 +1000,14 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
             // Show the tooltip popup element.
             function show() {
 
+              popupTimeout = null;
+
+              // If there is a pending remove transition, we must cancel it, lest the
+              // tooltip be mysteriously removed.
+              if ( transitionTimeout ) {
+                $timeout.cancel( transitionTimeout );
+                transitionTimeout = null;
+              }
 
               // Don't show empty tooltips.
               if ( ! scope.tt_content ) {
@@ -947,16 +1016,10 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
 
               createTooltip();
 
-              // If there is a pending remove transition, we must cancel it, lest the
-              // tooltip be mysteriously removed.
-              if ( transitionTimeout ) {
-                $timeout.cancel( transitionTimeout );
-              }
-
               // Set the initial positioning.
               tooltip.css({ top: 0, left: 0, display: 'block' });
 
-              // Now we add it to the DOM because need some info about it. But it's not 
+              // Now we add it to the DOM because need some info about it. But it's not
               // visible yet anyway.
               if ( appendToBody ) {
                   $document.find( 'body' ).append( tooltip );
@@ -982,12 +1045,15 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
 
               //if tooltip is going to be shown after delay, we must cancel this
               $timeout.cancel( popupTimeout );
+              popupTimeout = null;
 
-              // And now we remove it from the DOM. However, if we have animation, we 
+              // And now we remove it from the DOM. However, if we have animation, we
               // need to wait for it to expire beforehand.
               // FIXME: this is a placeholder for a port of the transitions library.
               if ( scope.tt_animation ) {
-                transitionTimeout = $timeout(removeTooltip, 500);
+                if (!transitionTimeout) {
+                  transitionTimeout = $timeout(removeTooltip, 500);
+                }
               } else {
                 removeTooltip();
               }
@@ -998,13 +1064,11 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
               if (tooltip) {
                 removeTooltip();
               }
-              tooltip = tooltipLinker(scope, function () {});
-
-              // Get contents rendered into the tooltip
-              scope.$digest();
+              tooltip = tooltipLinker(scope);
             }
 
             function removeTooltip() {
+              transitionTimeout = null;
               if (tooltip) {
                 tooltip.remove();
                 tooltip = null;
@@ -1120,7 +1184,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
   .factory('typeaheadParser', ['$parse', function ($parse) {
 
   //                      00000111000000000000022200000000000000003333333333333330000000000044000
-  var TYPEAHEAD_REGEXP = /^\s*(.*?)(?:\s+as\s+(.*?))?\s+for\s+(?:([\$\w][\$\w\d]*))\s+in\s+(.*)$/;
+  var TYPEAHEAD_REGEXP = /^\s*([\s\S]+?)(?:\s+as\s+([\s\S]+?))?\s+for\s+(?:([\$\w][\$\w\d]*))\s+in\s+([\s\S]+?)$/;
 
   return {
     parse:function (input) {
@@ -1182,15 +1246,25 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
       var hasFocus;
 
+      //create a child scope for the typeahead directive so we are not polluting original scope
+      //with typeahead-specific data (matches, query etc.)
+      var scope = originalScope.$new();
+      originalScope.$on('$destroy', function(){
+        scope.$destroy();
+      });
+
       // WAI-ARIA
+      var popupId = 'typeahead-' + scope.$id + '-' + Math.floor(Math.random() * 10000);
       element.attr({
         'aria-autocomplete': 'list',
-        'aria-expanded': false
+        'aria-expanded': false,
+        'aria-owns': popupId
       });
 
       //pop-up element used to display matches
       var popUpEl = angular.element('<div typeahead-popup></div>');
       popUpEl.attr({
+        id: popupId,
         matches: 'matches',
         active: 'activeIdx',
         select: 'select(activeIdx)',
@@ -1202,18 +1276,25 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
         popUpEl.attr('template-url', attrs.typeaheadTemplateUrl);
       }
 
-      //create a child scope for the typeahead directive so we are not polluting original scope
-      //with typeahead-specific data (matches, query etc.)
-      var scope = originalScope.$new();
-      originalScope.$on('$destroy', function(){
-        scope.$destroy();
-      });
-
       var resetMatches = function() {
         scope.matches = [];
         scope.activeIdx = -1;
         element.attr('aria-expanded', false);
       };
+
+      var getMatchId = function(index) {
+        return popupId + '-option-' + index;
+      };
+
+      // Indicate that the specified match is the active (pre-selected) item in the list owned by this typeahead.
+      // This attribute is added or removed automatically when the `activeIdx` changes.
+      scope.$watch('activeIdx', function(index) {
+        if (index < 0) {
+          element.removeAttr('aria-activedescendant');
+        } else {
+          element.attr('aria-activedescendant', getMatchId(index));
+        }
+      });
 
       var getMatchesAsync = function(inputValue) {
 
@@ -1223,7 +1304,8 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
           //it might happen that several async queries were in progress if a user were typing fast
           //but we are interested only in responses that correspond to the current view value
-          if (inputValue === modelCtrl.$viewValue && hasFocus) {
+          var onCurrentRequest = (inputValue === modelCtrl.$viewValue);
+          if (onCurrentRequest && hasFocus) {
             if (matches.length > 0) {
 
               scope.activeIdx = 0;
@@ -1233,6 +1315,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
               for(var i=0; i<matches.length; i++) {
                 locals[parserResult.itemName] = matches[i];
                 scope.matches.push({
+                  id: getMatchId(i),
                   label: parserResult.viewMapper(scope, locals),
                   model: matches[i]
                 });
@@ -1249,6 +1332,8 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
             } else {
               resetMatches();
             }
+          }
+          if (onCurrentRequest) {
             isLoadingSetter(originalScope, false);
           }
         }, function(){
@@ -1265,6 +1350,18 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
       //Declare the timeout promise var outside the function scope so that stacked calls can be cancelled later
       var timeoutPromise;
 
+      var scheduleSearchWithTimeout = function(inputValue) {
+        timeoutPromise = $timeout(function () {
+          getMatchesAsync(inputValue);
+        }, waitTime);
+      };
+
+      var cancelPreviousTimeout = function() {
+        if (timeoutPromise) {
+          $timeout.cancel(timeoutPromise);
+        }
+      };
+
       //plug into $parsers pipeline to open a typeahead on view changes initiated from DOM
       //$parsers kick-in on all the changes coming from the view as well as manually triggered by $setViewValue
       modelCtrl.$parsers.unshift(function (inputValue) {
@@ -1273,17 +1370,14 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
         if (inputValue && inputValue.length >= minSearch) {
           if (waitTime > 0) {
-            if (timeoutPromise) {
-              $timeout.cancel(timeoutPromise);//cancel previous timeout
-            }
-            timeoutPromise = $timeout(function () {
-              getMatchesAsync(inputValue);
-            }, waitTime);
+            cancelPreviousTimeout();
+            scheduleSearchWithTimeout(inputValue);
           } else {
             getMatchesAsync(inputValue);
           }
         } else {
           isLoadingSetter(originalScope, false);
+          cancelPreviousTimeout();
           resetMatches();
         }
 
@@ -1308,7 +1402,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
         if (inputFormatter) {
 
-          locals['$model'] = modelValue;
+          locals.$model = modelValue;
           return inputFormatter(originalScope, locals);
 
         } else {
@@ -1342,8 +1436,9 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
         resetMatches();
 
-        //return focus to the input element if a mach was selected via a mouse click event
-        element[0].focus();
+        //return focus to the input element if a match was selected via a mouse click event
+        // use timeout to avoid $rootScope:inprog error
+        $timeout(function() { element[0].focus(); }, 0, false);
       };
 
       //bind keyboard events: arrows up(38) / down(40), enter(13) and tab(9), esc(27)
@@ -1395,10 +1490,13 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
       originalScope.$on('$destroy', function(){
         $document.unbind('click', dismissClickHandler);
+        if (appendToBody) {
+          $popup.remove();
+        }
       });
 
       var $popup = $compile(popUpEl)(scope);
-      if ( appendToBody ) {
+      if (appendToBody) {
         $document.find('body').append($popup);
       } else {
         element.after($popup);
@@ -1473,12 +1571,18 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.position', 'ui.bootstrap
 
 angular.module("template/modal/backdrop.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("template/modal/backdrop.html",
-    "<div class=\"modal-backdrop fade\" ng-class=\"{in: animate}\" ng-style=\"{'z-index': 1040 + index*10}\" ng-click=\"close($event)\"></div>");
+    "<div class=\"modal-backdrop fade {{ backdropClass }}\"\n" +
+    "     ng-class=\"{in: animate}\"\n" +
+    "     ng-style=\"{'z-index': 1040 + (index && 1 || 0) + index*10}\"\n" +
+    "></div>\n" +
+    "");
 }]);
 
 angular.module("template/modal/window.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("template/modal/window.html",
-    "<div class=\"modal fade {{ windowClass }}\" ng-class=\"{in: animate}\" ng-style=\"{'z-index': 1050 + index*10}\" ng-transclude></div>");
+    "<div tabindex=\"-1\" role=\"dialog\" class=\"modal fade\" ng-class=\"{in: animate}\" ng-style=\"{'z-index': 1050 + index*10, display: 'block'}\" ng-click=\"close($event)\">\n" +
+    "    <div class=\"modal-dialog\" ng-class=\"{'modal-sm': size == 'sm', 'modal-lg': size == 'lg'}\"><div class=\"modal-content\" modal-transclude></div></div>\n" +
+    "</div>");
 }]);
 
 angular.module("template/tooltip/tooltip-html-unsafe-popup.html", []).run(["$templateCache", function($templateCache) {
@@ -1506,9 +1610,10 @@ angular.module("template/typeahead/typeahead-match.html", []).run(["$templateCac
 
 angular.module("template/typeahead/typeahead-popup.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("template/typeahead/typeahead-popup.html",
-    "<ul class=\"typeahead dropdown-menu\" ng-style=\"{display: isOpen()&&'block' || 'none', top: position.top+'px', left: position.left+'px'}\">\n" +
-    "    <li ng-repeat=\"match in matches\" should-focus=\"isActive($index)\" ng-class=\"{active: isActive($index) }\" ng-mouseenter=\"selectActive($index)\" ng-click=\"selectMatch($index)\">\n" +
+    "<ul class=\"dropdown-menu\" ng-show=\"isOpen()\" ng-style=\"{top: position.top+'px', left: position.left+'px'}\" style=\"display: block;\" role=\"listbox\" aria-hidden=\"{{!isOpen()}}\">\n" +
+    "    <li ng-repeat=\"match in matches track by $index\" ng-class=\"{active: isActive($index) }\" ng-mouseenter=\"selectActive($index)\" ng-click=\"selectMatch($index)\" role=\"option\" id=\"{{match.id}}\">\n" +
     "        <div typeahead-match index=\"$index\" match=\"match\" query=\"query\" template-url=\"templateUrl\"></div>\n" +
     "    </li>\n" +
-    "</ul>");
+    "</ul>\n" +
+    "");
 }]);
